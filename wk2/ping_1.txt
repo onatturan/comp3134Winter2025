@@ -1,0 +1,46 @@
+(base) onatturan@Onats-MacBook-Air ~ % ping google.com
+
+PING google.com (142.250.69.78): 56 data bytes
+64 bytes from 142.250.69.78: icmp_seq=0 ttl=119 time=16.697 ms
+64 bytes from 142.250.69.78: icmp_seq=1 ttl=119 time=19.198 ms
+64 bytes from 142.250.69.78: icmp_seq=2 ttl=119 time=18.463 ms
+64 bytes from 142.250.69.78: icmp_seq=3 ttl=119 time=20.393 ms
+64 bytes from 142.250.69.78: icmp_seq=4 ttl=119 time=20.085 ms
+64 bytes from 142.250.69.78: icmp_seq=5 ttl=119 time=17.215 ms
+64 bytes from 142.250.69.78: icmp_seq=6 ttl=119 time=32.978 ms
+64 bytes from 142.250.69.78: icmp_seq=7 ttl=119 time=19.225 ms
+64 bytes from 142.250.69.78: icmp_seq=8 ttl=119 time=20.646 ms
+64 bytes from 142.250.69.78: icmp_seq=9 ttl=119 time=16.415 ms
+64 bytes from 142.250.69.78: icmp_seq=10 ttl=119 time=19.263 ms
+64 bytes from 142.250.69.78: icmp_seq=11 ttl=119 time=19.296 ms
+64 bytes from 142.250.69.78: icmp_seq=12 ttl=119 time=20.403 ms
+64 bytes from 142.250.69.78: icmp_seq=13 ttl=119 time=12.890 ms
+64 bytes from 142.250.69.78: icmp_seq=14 ttl=119 time=16.833 ms
+64 bytes from 142.250.69.78: icmp_seq=15 ttl=119 time=17.887 ms
+64 bytes from 142.250.69.78: icmp_seq=16 ttl=119 time=17.057 ms
+64 bytes from 142.250.69.78: icmp_seq=17 ttl=119 time=9.223 ms
+64 bytes from 142.250.69.78: icmp_seq=18 ttl=119 time=18.189 ms
+64 bytes from 142.250.69.78: icmp_seq=19 ttl=119 time=16.704 ms
+^C
+--- google.com ping statistics ---
+20 packets transmitted, 20 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 9.223/18.453/32.978/4.251 ms
+(base) onatturan@Onats-MacBook-Air ~ % ping google.com -w 10
+
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+(base) onatturan@Onats-MacBook-Air ~ % 

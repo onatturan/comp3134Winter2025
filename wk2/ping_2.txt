@@ -1,0 +1,22 @@
+(base) onatturan@Onats-MacBook-Air ~ % ping 184.163.57.85
+PING 184.163.57.85 (184.163.57.85): 56 data bytes
+64 bytes from 184.163.57.85: icmp_seq=0 ttl=64 time=5.505 ms
+64 bytes from 184.163.57.85: icmp_seq=1 ttl=64 time=9.359 ms
+64 bytes from 184.163.57.85: icmp_seq=2 ttl=64 time=8.811 ms
+64 bytes from 184.163.57.85: icmp_seq=3 ttl=64 time=3.120 ms
+64 bytes from 184.163.57.85: icmp_seq=4 ttl=64 time=8.498 ms
+64 bytes from 184.163.57.85: icmp_seq=5 ttl=64 time=4.518 ms
+64 bytes from 184.163.57.85: icmp_seq=6 ttl=64 time=5.924 ms
+64 bytes from 184.163.57.85: icmp_seq=7 ttl=64 time=3.648 ms
+64 bytes from 184.163.57.85: icmp_seq=8 ttl=64 time=9.446 ms
+64 bytes from 184.163.57.85: icmp_seq=9 ttl=64 time=2.514 ms
+64 bytes from 184.163.57.85: icmp_seq=10 ttl=64 time=8.910 ms
+64 bytes from 184.163.57.85: icmp_seq=11 ttl=64 time=2.499 ms
+64 bytes from 184.163.57.85: icmp_seq=12 ttl=64 time=10.054 ms
+64 bytes from 184.163.57.85: icmp_seq=13 ttl=64 time=9.242 ms
+64 bytes from 184.163.57.85: icmp_seq=14 ttl=64 time=10.604 ms
+^C
+--- 184.163.57.85 ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.499/6.843/10.604/2.874 ms
+(base) onatturan@Onats-MacBook-Air ~ % 

@@ -1,0 +1,44 @@
+(base) onatturan@Onats-MacBook-Air ~ % nmap {Onats-MacBook-Air.local}
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-14 11:50 EST
+Failed to resolve "{Onats-MacBook-Air.local}".
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.08 seconds
+(base) onatturan@Onats-MacBook-Air ~ % nmap Onats-MacBook-Air.local
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-14 11:50 EST
+Nmap scan report for Onats-MacBook-Air.local (127.0.0.1)
+Host is up (0.00012s latency).
+Other addresses for Onats-MacBook-Air.local (not scanned): ::1 fe80::1 10.0.0.6 fe80::b1:3e5e:942c:7af3
+rDNS record for 127.0.0.1: localhost
+Not shown: 995 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+587/tcp  open  submission
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+Nmap done: 1 IP address (1 host up) scanned in 0.11 seconds
+(base) onatturan@Onats-MacBook-Air ~ % 
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-14 11:57 EST
+Nmap scan report for Onats-MacBook-Air.local (127.0.0.1)
+Host is up (0.00010s latency).
+Other addresses for Onats-MacBook-Air.local (not scanned): ::1 fe80::1 10.0.0.6 fe80::b1:3e5e:942c:7af3
+rDNS record for 127.0.0.1: localhost
+Not shown: 98 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+5000/tcp open  upnp
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-14 11:57 EST
+Nmap scan report for Onats-MacBook-Air.local (127.0.0.1)
+Host is up (0.00014s latency).
+Other addresses for Onats-MacBook-Air.local (not scanned): ::1 fe80::1 10.0.0.6 fe80::b1:3e5e:942c:7af3
+rDNS record for 127.0.0.1: localhost
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
